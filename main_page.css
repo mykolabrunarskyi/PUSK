@@ -1,0 +1,554 @@
+html{
+    margin:0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: auto;
+    background-image: url(https://lpnu.ua/sites/default/files/2022/1/27/news/18463/lpfasad.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.body{
+    width: 1440px;
+    height: 900px;
+    overflow: hidden;
+    position: absolute;
+    color:#262121;
+    font-family: 'Roboto', sans-serif;
+    transform: scale(0.8);
+    transform-origin: top;
+    margin:auto;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1000%;
+    height: 1000%;
+    background: #f3f6f6bd;
+    display: none;
+    z-index: -1;
+    transform: scale(2);
+}
+.Logo-PUSK{
+    margin-top: 58px;
+    margin-left: 100px ;
+    position: absolute;
+    width: 74px;
+    height: 64px;
+}
+.div{
+    background-color:#FBFBFC;
+    height: 496px;
+    margin-top: 0px;
+    border-radius: 20px;
+    width: 1280px;
+    margin-left: 100px;
+    margin-right: 80px;
+    margin-bottom: 76px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: block;
+}
+.div-1{
+    height: 328px;
+    position: relative;
+}
+.Logo{
+    width: 289px;
+    height: 80px;
+    position: absolute;
+    margin-left: 757px;
+    margin-bottom:213px; ;
+    margin-top:35px ;
+    margin-right:394px ;
+    font-size: 40px;
+
+}
+.menu{
+    width: 68px;
+    height: 68px;
+    border: none;
+    margin-left: 94px;
+    margin-top: 200px;
+    margin-bottom: 68px;
+    margin-right: 1286px;
+    background-color: #f3f6f600;
+    position: absolute;
+    cursor: pointer;
+    padding:0%;
+}
+.icon-menu{
+    transition: transform 0.3s ease,;
+}
+.icon-menu:hover{
+    transform: scale(1.2);
+}
+.icon-Log{
+    transition: transform 0.3s ease,;
+}
+.icon-Log:hover{
+    transform: scale(1.2);
+}
+.search{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 1123px;
+    height: 60px;
+    border: none;
+    font-size: 25px;
+    margin-left: 188px;
+    margin-top: 200px;
+    margin-bottom: 68px;
+    position: absolute;
+    padding-left: 68px;
+    z-index: 2;
+}
+.icon-search{
+    position: absolute;
+    margin-top: 216px ;
+    margin-bottom: 84px;
+    margin-left:204px ;
+    margin-right: 1208px;
+    cursor: pointer;
+    height: 43px;
+    border: 0px;
+    background-color: #FFF;
+    padding-bottom: 10px;
+    z-index: 3;
+}
+.search-Bar{
+    position: absolute;
+    width: 1123px;
+    height: 400px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 1123px;
+    margin-top: 270px;
+    margin-left: 188px;
+    background: #FFF;
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: none;
+
+}
+.search-Bar h1{
+    font-size: 30px;
+    
+}
+.button-Login{
+    width:75px;
+    height:86px;
+    background-color: #f3f6f600;
+    border: none;
+    margin-left: 1291px;
+    margin-bottom: 208px;
+    margin-top: 40px;
+    position: absolute;
+    cursor: pointer;
+}
+.div button{
+    padding: 0px 0px;
+    font-size: medium 24px; 
+    color: black;
+    cursor: pointer;
+    position: absolute;
+}
+.div button h1{
+    margin-top: 25px; 
+    display: inline;
+    font-weight:lighter;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.button1{
+    
+    background-color: rgba(255, 191, 75, 0.7);
+    width: 345px;
+    height: 172px;
+    border: 0.5px solid rgba(255, 191, 75, 0.7);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-left: 88px;
+    margin-right: 847px;
+    margin-top: 59px;
+    margin-bottom: 265px ;
+}
+.button1:hover{
+    background-color: rgb(255, 192, 75);
+    width: 383px;
+    height: 191px;
+    margin-left: 64px;
+    margin-top: 54px;
+    margin-right: 833px;
+    margin-bottom: 251px;
+}
+.button2{
+    background-color: rgba(119, 202, 229, 0.7);
+    width: 345px;
+    height: 172px;
+    border: 0.5px solid rgba(119, 202, 229, 0.7);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-left: 468px;
+    margin-right: 467px;
+    margin-top: 59px;
+    margin-bottom: 265px ;
+}
+.button2:hover{
+    background-color:rgb(119, 202, 229);
+    width: 383px;
+    height: 191px;
+    margin-left: 448px;
+    margin-top: 54px;
+    margin-right: 449px;
+    margin-bottom: 251px;
+}
+.button3{
+    background-color: rgba(169, 16, 160, 0.7);
+    width: 345px;
+    height: 172px;
+    border: 0.5px solid rgba(169, 16, 160, 0.7);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-left: 847px;
+    margin-right: 88px;
+    margin-top: 59px;
+    margin-bottom: 265px ;
+}
+.button3:hover{
+    background-color:rgb(169, 16, 159);
+    width: 383px;
+    height: 191px;
+    margin-left: 833px;
+    margin-top: 54px;
+    margin-right: 64px;
+    margin-bottom: 251px;
+}
+.button4{
+    background-color: rgba(70, 16, 160, 0.7);
+    width: 345px;
+    height: 172px;
+    border: 0.5px solid rgba(70, 16, 160, 0.7);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-left: 88px;
+    margin-right: 847px;
+    margin-top: 265px;
+    margin-bottom: 59px ;
+}
+.button4:hover{
+    background-color:rgb(71, 16, 160);
+    width: 383px;
+    height: 191px;
+    margin-left: 64px;
+    margin-top: 251px;
+    margin-right: 833px;
+    margin-bottom: 54px;
+}
+.button5{
+    background-color: rgba(18, 167, 104, 0.7);
+    width: 345px;
+    height: 172px;
+    border: 0.5px solid rgba(18, 167, 104, 0.7);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-left: 468px;
+    margin-right: 467px;
+    margin-top: 265px;
+    margin-bottom: 59px ;
+}
+.button5:hover{
+    background-color:rgb(18, 167, 105);
+    width: 383px;
+    height: 191px;
+    margin-left: 448px;
+    margin-top: 251px;
+    margin-right: 449px;
+    margin-bottom: 54px;
+}
+.button6{
+    background-color: rgba(246, 118, 63, 0.75);
+    width: 345px;
+    height: 172px;
+    border: 0.5px solid rgba(246, 118, 63, 0.75);
+    border-radius: 10px; 
+    cursor: pointer;
+    margin-left: 847px;
+    margin-right: 88px;
+    margin-top: 265px;
+    margin-bottom: 59px ;
+}
+.button6:hover{
+    background-color:rgb(246, 118, 63);
+    width: 383px;
+    height: 191px;
+    margin-left: 833px;
+    margin-top: 251px;
+    margin-right: 64px;
+    margin-bottom: 54px;
+}
+.my-h1{
+    color:black;
+    font-size: 110px;
+}
+.Project-name{
+    display: flex;
+    width: 269px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    color: #262121;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
+    margin-left: 395px;
+    margin-bottom: 213px;
+    margin-top: 43px;
+    margin-right: 776px;
+    position: absolute;
+}
+.Project-name1{
+    display: flex;
+    width: 6px;
+    height: 77px;
+    flex-direction: column;
+    justify-content: center;
+    color: #262121;
+    margin-bottom: 208px;
+    margin-top: 40px;
+    margin-left: 717px;
+    margin-right: 729px;
+    position: absolute;
+    font-size:96px ;
+    align-items: flex-end;
+}
+.Project-name2{
+    display: flex;
+    width: 269px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    color: #262121;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Project-name3{
+    display: flex;
+    width: 269px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    color: #262121;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.div-name{
+    display: flex;
+    width: 289px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 47px;
+    display: block;
+    font-weight: 700;
+    color: var(--main-font, #262121);
+}
+.Project-name2{
+  margin: left 0px;
+  display: inline;
+}
+.Project-name3{
+    margin: none;
+    display: inline;
+}
+.div button svg h1{
+    display: block;
+    
+}
+.xmln1{
+    margin-left: 148px;
+    margin-right: 145px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}
+.xmln2{
+    margin-left: 148px;
+    margin-right: 145px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}.xmln3{
+    margin-left: 148px;
+    margin-right: 145px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}.xmln4{
+    margin-left: 148px;
+    margin-right: 145px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}.xmln5{
+    margin-left: 148px;
+    margin-right: 145px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}.xmln6{
+    margin-left: 148px;
+    margin-right: 145px;
+    margin-top: 49px;
+    margin-bottom: 20px;
+    width: 52px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+}
+.appearing-div{
+    width: 400px;
+    height: 372px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 3;
+    margin-top: 280px;
+    margin-left: 80px;
+    display: none;
+}
+.appearing-div > :first-child{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: normal;
+    text-transform: uppercase;
+    display: block;
+    margin-left:40px ;
+    margin-top: 40px;
+    position: fixed;
+}
+.appearing-div > :not(:first-child):not(img){
+    color: var(--font-secondary, #9B9D9F);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 292px;
+    margin-left: 40px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+.margin-top-specialty-OI{
+    margin-top: 108px;
+}
+.margin-top-specialty-PP{
+    margin-top: 174px;
+}
+.margin-top-specialty-SHI{
+    margin-top: 286px;
+}
+.appearing-div img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 352px;
+}
+.margin-top-arrow1{
+    margin-top: 120px;
+}
+.margin-top-arrow2{
+    margin-top: 209px;
+}
+.margin-top-arrow3{
+    margin-top: 300px;
+}
+.div-apearing-menu-specialty1{
+    margin-top: 360px;
+}
+.appearing > div > h1{
+    display: block;
+    position: relative;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+    color: var(--font-secondary, #9B9D9F);
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+}
+.appearing > div > h1:hover{
+    color: var(--color-secondary, #6C777E);
+}
+.appearing > div :first-child{
+    margin-top: 24px;
+}
+.appearing > div :last-child{
+    margin-top: 8px;
+}
+.div-apearing-menu-specialty2{
+
+    margin-top: 450px;
+
+}
+.div-apearing-menu-specialty3{
+
+    margin-top: 544px;
+
+}
+.appearing div{
+    width: 155px;
+    height: 98px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    margin-left: 484px;
+    z-index: 3;
+    display: none;
+    margin-left: 484px;
+}
+.container-appearing{
+    position: absolute;
+    margin-top: 360px;
+    width: 4px;
+    height: 294px;
+    appearance: none;
+    margin-left: 480px;
+    margin-top: 360px;
+    display: none;
+    z-index: 2;
+}
